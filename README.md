@@ -26,7 +26,7 @@ The columns contain the feature names, and the rows the sample names. 1s indicat
 
 Example:
 
-    python run.py test_matrix.txt test_tree --plot
+    python run.py test_data/test_matrix.txt test_tree --plot
 
 ## How do I run the unit tests? ##
 
