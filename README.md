@@ -2,7 +2,7 @@
 
 ### What is this repository for? ###
 
-This code is based on the blog posts explaining the [perfect phylogeny algorithm](https://genomejigsaw.wordpress.com/2015/09/09/building-phylogenetic-trees-with-binary-traits/) and the [incomplete phylogeny algorithm](https://genomejigsaw.wordpress.com/2015/11/23/incomplete_phylogeny/), based on the corresponding papers by [Gusfield]((http://onlinelibrary.wiley.com/doi/10.1002/net.3230210104/abstract) and [Pe'er et al](http://epubs.siam.org/doi/abs/10.1137/S0097539702406510). The code takes a feature matrix, infers the presence or absence of incomplete fields, and determines whether a perfect phylogeny can be built, if so, it will output a plot of the corresponding tree. 
+This code is based on the blog posts explaining the [perfect phylogeny algorithm](https://genomejigsaw.wordpress.com/2015/09/09/building-phylogenetic-trees-with-binary-traits/) and the [incomplete phylogeny algorithm](https://genomejigsaw.wordpress.com/2015/11/23/incomplete_phylogeny/), based on the corresponding papers by [Gusfield](http://onlinelibrary.wiley.com/doi/10.1002/net.3230210104/abstract) and [Pe'er et al](http://epubs.siam.org/doi/abs/10.1137/S0097539702406510). The code takes a feature matrix, infers the presence or absence of incomplete fields, and determines whether a perfect phylogeny can be built, if so, it will output a plot of the corresponding tree. 
 
 ### How do I get set up? ###
 
