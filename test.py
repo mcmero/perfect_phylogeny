@@ -8,7 +8,7 @@ from perfect_phylogeny import phylogeny as phyl
 from unittest import TestCase
 
 # test data 1 - perfect phyl with incomplete fields
-m_file1 = 'test_matrix.txt'
+m_file1 = 'test_data/test_matrix.txt'
 m_txt  = np.genfromtxt(m_file1,delimiter='\t',dtype=None,invalid_raise=False)
 
 s1 = np.array(m_txt[1:,0],dtype='S100') # row names/samples
@@ -16,7 +16,7 @@ c1 = np.array(m_txt[0,1:],dtype='S100') # column names/features
 m1 = np.array(m_txt[1:,1:],dtype=int)   # matrix values
 
 # test data 2 - no perfect phylogeny, no incomplete fields
-m_file2 = 'test_matrix_no_phyl.txt'
+m_file2 = 'test_data/test_matrix_no_phyl.txt'
 m_txt   = np.genfromtxt(m_file2,delimiter='\t',dtype=None,invalid_raise=False)
 
 s2 = np.array(m_txt[1:,0],dtype='S100') # row names/samples
